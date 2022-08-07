@@ -3,7 +3,7 @@
     font-size: 20px;
     font-weight: 700;
     min-height: 397px;
-    color: white;
+    color: $white;
 }
 .logo {
     float: right;
@@ -18,8 +18,8 @@ h1 {
     float: left;
 }
 .header_box {
-    background: #14475F;
-    color: white;
+    background: $darkBlue;
+    color: $white;
     text-align: center;
     font-size: 16px;
     line-height: 27px;
