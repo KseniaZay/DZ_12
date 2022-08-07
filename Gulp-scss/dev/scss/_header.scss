@@ -1,0 +1,36 @@
+.header_container {
+    background: url(../images/general_img.svg);
+    font-size: 20px;
+    font-weight: 700;
+    min-height: 397px;
+    color: white;
+}
+.logo {
+    float: right;
+    padding: 30px 30px;
+}
+.logo:hover {
+    transform: scale(1.05);
+}
+h1 {
+    padding: 120px 0 0 10px;
+    text-transform: uppercase;
+    float: left;
+}
+.header_box {
+    background: #14475F;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 700;
+    padding: 1px 0 1px 0;
+    font-family: poppins;
+}
+.header_box > p {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 27px;
+}
+   
+   

@@ -1,0 +1,47 @@
+.footer-box {
+    width: 100%;
+    display: inline-block;
+    background: #87C5E0;    
+}
+h6 {
+    padding: 15px 0;
+    margin: 0;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+}
+.address {
+    display: inline-block;
+    padding: 10px 100px 10px 20px;    
+}
+address {
+    font-style: normal;
+    @include footerBox (500, 14px, 180%);
+}
+.contact {
+    display: inline-block;
+    padding: 10px 10px 10px 20px;
+}
+.contact > a {
+    list-style: none;
+    color: black;
+    @include footerBox (500, 14px, 180%);
+}
+.footer_box {
+    background: #14475F;
+    color: white;
+    text-align: center;
+    font-family: poppins;
+    padding: 3px;
+    @include unsubscribe (500, 13px, 150%);
+}
+.unsubscribe {
+    margin: 0;
+    padding: 2px 0;
+    background: white;
+    color: #14475F;
+    text-align: center;
+    font-family: poppins;
+    @include unsubscribe (500, 13px, 150%);
+}

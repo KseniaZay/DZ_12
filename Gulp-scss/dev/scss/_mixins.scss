@@ -1,0 +1,23 @@
+@mixin centerBlock($w, $g) {
+    max-width: $w;
+    padding: 0 $g;
+    margin: 0 auto;
+}
+@mixin Size ($s, $w) {
+    font-size: $s;
+    font-weight: $w;
+}
+@mixin sizeCard ($s, $w) {
+    font-size: $s;
+    font-weight: $w;
+}
+@mixin footerBox ($w, $s, $h) {
+    font-weight: $w;
+    font-size: $s;
+    line-height: $h;
+}
+@mixin unsubscribe ($w, $s, $h) {
+    font-weight: $w;
+    font-size: $s;
+    line-height: $h;
+}
